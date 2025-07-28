@@ -1,0 +1,156 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.leftContainer {
+  min-width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ssoContainer {
+  height: 85%;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  margin: 0 auto;
+}
+
+.loginOrSignUpText {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.descriptionText {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+}
+
+.ssoOptionsContainer {
+  width: 60%;
+  margin: 20px auto;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.ssoOption {
+  border: 1px solid #333333;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 40px;
+  width: 100%;
+  height: 72px;
+}
+
+.ssoOption img {
+  height: 32px;
+  width: 32px;
+}
+
+.ssoOption p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.rightContainer {
+  width: 50%;
+  height: 100vh;
+}
+
+.rightContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 1200px) {
+    .ssoOptionsContainer {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .leftContainer,
+  .rightContainer {
+    width: 100%;
+  }
+
+  .leftContainer {
+    margin-top: 40px;
+  }
+
+  .rightContainer {
+    height: 30vh;
+  }
+
+  .rightContainer img {
+    height: 30vh;
+  }
+
+  .ssoContainer {
+    height: 100%;
+    width: 100%;
+  }
+
+  .ssoOption p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 481px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .leftContainer,
+  .rightContainer {
+    width: 100%;
+  }
+
+  .leftContainer {
+    margin-top: 40px;
+  }
+
+  .rightContainer {
+    height: 30vh;
+  }
+
+  .rightContainer img {
+    height: 30vh;
+  }
+
+  .ssoOptionsContainer {
+    margin-top: 0px;
+  }
+
+  .ssoContainer {
+    height: 100%;
+    width: 100%;
+  }
+
+  .ssoOption p {
+    font-size: 16px;
+  }
+}
