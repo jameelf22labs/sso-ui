@@ -1,0 +1,66 @@
+
+.container {
+    display: flex;
+}
+
+.leftContainer {
+    width: 50%;
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ssoContainer {
+    height: 85%;
+    width: 80%;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+    
+}
+
+.loginOrSignUpText {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.descriptionText {
+    text-align: center;
+
+}
+
+.ssoOptionsContainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ssoOption {
+    border: 2px solid #333333;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+}
+
+
+
+
+
+.rightContainer {
+    width: 50%;
+    height: 100vh;
+}
+
+.rightContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
