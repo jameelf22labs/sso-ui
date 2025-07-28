@@ -80,6 +80,11 @@
   object-fit: cover;
 }
 
+@media (min-width: 1200px) {
+    .ssoOptionsContainer {
+        width: 70%;
+    }
+}
 
 @media (max-width: 768px) {
   .container {
@@ -133,6 +138,10 @@
 
   .rightContainer img {
     height: 30vh;
+  }
+
+  .ssoOptionsContainer {
+    margin-top: 0px;
   }
 
   .ssoContainer {
