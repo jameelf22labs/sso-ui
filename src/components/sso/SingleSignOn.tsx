@@ -45,10 +45,8 @@ const SingleSignOn = (): JSX.Element => {
                 {ssoOptions.map((options) => {
                   return (
                     <div className={Style.ssoOption} key={options.label}>
-                      <div>
+                      <div style={{ display: "flex", alignItems: "center" }}>
                         <img src={options.imageUrl} alt={options.label} />
-                      </div>
-                      <div>
                         <p> Continue with {options.label} </p>
                       </div>
                     </div>
